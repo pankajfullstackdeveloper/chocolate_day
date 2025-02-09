@@ -53,7 +53,7 @@ export default function ChocolateSurprise() {
       <motion.div className="mt-6">
         <img src="/image.webp" alt="Us" className="w-48 h-48 rounded-lg shadow-lg" />
       </motion.div>
-      <Button onClick={() => setShowMessage(true)} className="bg-brown-600 text-white px-4 py-2 rounded-xl hover:bg-brown-800 mt-6">
+      <Button onClick={() => setShowMessage(true)} className="bg-brown-600 text-white px-4 mt-2 py-2 rounded-xl hover:bg-brown-800 mt-6">
         Tap for a Sweet Message 💝
       </Button>
       {showMessage && (
