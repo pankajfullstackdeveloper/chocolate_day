@@ -48,10 +48,10 @@ export default function ChocolateSurprise() {
         Happy Chocolate Day, Roshni! 🍫❤️
       </motion.h1>
       <motion.div className="mt-6">
-        <img src="/choco.png" alt="Chocolate" className="w-48 h-48 rounded-lg shadow-lg" />
+        <img src="/choco.png" alt="Chocolate" className="w-[300px] h-[100px]  rounded-lg shadow-lg" />
       </motion.div>
       <motion.div className="mt-6">
-        <img src="/image.webp" alt="Us" className="w-48 h-48 rounded-lg shadow-lg" />
+        <img src="/image.webp" alt="Us" className="w-[300px]  h-[300px]  rounded-lg shadow-lg" />
       </motion.div>
       <Button onClick={() => setShowMessage(true)} className="bg-brown-600 text-white px-4 mt-2 py-2 rounded-xl hover:bg-brown-800 mt-6">
         Tap for a Sweet Message 💝
